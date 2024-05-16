@@ -1,0 +1,20 @@
+digraph {
+	room0
+	room1
+	room2
+	room3
+	room4
+	room5
+	room0 -> room1 [label=left]
+	room0 -> room2 [label=up]
+	room0 -> room3 [label=lever]
+	room1 -> room2 [label=up]
+	room1 -> room0 [label=right]
+	room3 -> room4 [label=up]
+	room3 -> room5 [label=right]
+	room3 -> room0 [label=lever]
+	room4 -> room3 [label=down]
+	room4 -> room5 [label=right]
+	room5 -> room4 [label=up]
+	room5 -> room3 [label=left]
+}
